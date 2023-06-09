@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 pd.set_option("display.precision", 2)
-df = pd.read_csv(r"C:\Users\ninol\Desktop\olá\archive\dataset.csv")
+df = pd.read_csv(r"filepathway")
 # print (df.shape)   // Used for printing number of rows x columns (667,20)
 # print(df.columns) // Prints the name of the rows in the dataset
 # print(df.info()) //  Gives info about the data typ3 ( (1)bool typ3, (3)are object typ3, and (16)numeric typ3s) here
